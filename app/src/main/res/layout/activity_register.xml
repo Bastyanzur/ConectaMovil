@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/fondoos2"> <!-- Fondo oscuro -->
+
+    <!-- Resto de tus elementos -->
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF" /> <!-- Fondo blanco para el campo de texto -->
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF" /> <!-- Fondo blanco para el campo de contraseña -->
+
+    <!-- Botón con fondo color naranja -->
+
+    <!-- Botón con fondo color azul -->
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="68dp"
+        android:background="#FF5722"
+        android:text="Registrarse" />
+
+    <Button
+        android:id="@+id/btnInicar"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="1dp"
+        android:background="#2196F3"
+        android:text="Ir a Iniciar Sesión" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegister"
+        android:layout_marginTop="72dp"
+        android:background="#4CAF50"
+        android:text="Cerrar Sesión" /> <!-- Botón con fondo color verde -->
+
+</RelativeLayout>
